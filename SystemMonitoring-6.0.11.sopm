@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otobo_package version="1.1">
+    <Name>SystemMonitoring</Name>
+    <Version>0.0.0</Version>
+    <Vendor>Rother OSS GmbH</Vendor>
+    <URL>https://otobo.de/</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
+    <Framework>10.0.x</Framework>
+    <IntroInstall Lang="en" Title="Install Information" Type="pre">
+
+        &lt;br&gt;
+        &lt;b&gt;WELCOME&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        You are about to install the OTOBO package SystemMonitoring.&lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroInstall>
+    <IntroInstall Lang="de" Title="Installation Information" Type="pre">
+
+        &lt;br&gt;
+        &lt;b&gt;WILLKOMMEN&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Sie sind im Begriff das OTOBO-Paket SystemMonitoring zu installieren.&lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroInstall>
+    <IntroInstall Lang="es" Title="Install Information" Type="pre">
+
+        &lt;br&gt;
+        &lt;b&gt;BIENVENIDO&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Ud. está a punto de instalar el paquete de Monitorización del Sistema de OTOBO.&lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroInstall>
+    <IntroInstall Lang="hu" Title="Telepítési információk" Type="pre">
+
+        &lt;br&gt;
+        &lt;b&gt;ÜDVÖZÖLJÜK&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Ön a SystemMonitoring OTOBO csomag telepítésére készül.&lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroInstall>
+    <IntroInstall Lang="en" Title="Installation Information" Type="post">
+
+        &lt;br&gt;
+        &lt;b&gt;NOTICE&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        For configuration instructions please refer to the enclosed PDF documentation.
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroInstall>
+    <IntroInstall Lang="de" Title="Installation Information" Type="post">
+
+        &lt;br&gt;
+        &lt;b&gt;HINWEIS&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Eine Anleitung zur Konfiguration des SystemMonitoring Moduls findet sich in der Datei PDF.
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroInstall>
+    <IntroInstall Lang="es" Title="Installation Information" Type="post">
+
+        &lt;br&gt;
+        &lt;b&gt;NOTA&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Instrucciones sobre cómo configurar el módulo de monitorización del sistema se proporcionan en el archivo PDF .
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroInstall>
+    <IntroInstall Lang="hu" Title="Telepítési információk" Type="post">
+
+        &lt;br&gt;
+        &lt;b&gt;FIGYELMEZTETÉS&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        A beállítási utasításokért nézze meg a mellékelt PDF-dokumentumot.
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroInstall>
+    <IntroUpgrade Lang="en" Title="Upgrade Information" Type="pre">
+
+        &lt;br&gt;
+        &lt;b&gt;WELCOME&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        You are about to upgrade the OTOBO package SystemMonitoring.&lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroUpgrade>
+    <IntroUpgrade Lang="de" Title="Upgrade Information" Type="pre">
+
+        &lt;br&gt;
+        &lt;b&gt;WILLKOMMEN&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Sie sind im Begriff das OTOBO-Paket SystemMonitoring zu aktualisieren.&lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroUpgrade>
+    <IntroUpgrade Lang="es" Title="Upgrade Information" Type="pre">
+
+        &lt;br&gt;
+        &lt;b&gt;BIENVENIDO&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Ud. está a punto de actualizar el paquete de Monitorización del Sistema de OTOBO.&lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroUpgrade>
+    <IntroUpgrade Lang="hu" Title="Frissítési információk" Type="pre">
+
+        &lt;br&gt;
+        &lt;b&gt;ÜDVÖZÖLJÜK&lt;/b&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Ön a SystemMonitoring OTOBO csomag frissítésére készül.&lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        ((enjoy))&lt;br&gt;
+        &lt;br&gt;
+
+    </IntroUpgrade>
+    <CodeInstall Type="post">
+        # create the package name
+        my $CodeModule = 'var::packagesetup::' . $Param{Structure}-&gt;{Name}-&gt;{Content};
+
+        $Kernel::OM-&gt;Get($CodeModule)-&gt;CodeInstall();
+    </CodeInstall>
+    <CodeUpgrade Type="post">
+        # create the package name
+        my $CodeModule = 'var::packagesetup::' . $Param{Structure}-&gt;{Name}-&gt;{Content};
+
+        $Kernel::OM-&gt;Get($CodeModule)-&gt;CodeUpgrade();
+    </CodeUpgrade>
+    <CodeUpgrade Type="pre">
+        # create the package name
+        my $CodeModule = 'var::packagesetup::' . $Param{Structure}-&gt;{Name}-&gt;{Content};
+
+        $Kernel::OM-&gt;Get($CodeModule)-&gt;CodeUpgradePre();
+    </CodeUpgrade>
+    <CodeUpgrade Type="post" Version="2.2.92">
+        # create the package name
+        my $CodeModule = 'var::packagesetup::' . $Param{Structure}-&gt;{Name}-&gt;{Content};
+
+        $Kernel::OM-&gt;Get($CodeModule)-&gt;CodeUpgradeFromLowerThan_2_2_92();
+    </CodeUpgrade>
+    <CodeUninstall Type="pre">
+        # create the package name
+        my $CodeModule = 'var::packagesetup::' . $Param{Structure}-&gt;{Name}-&gt;{Content};
+
+        $Kernel::OM-&gt;Get($CodeModule)-&gt;CodeUninstall();
+    </CodeUninstall>
+    <CodeReinstall Type="post">
+        # create the package name
+        my $CodeModule = 'var::packagesetup::' . $Param{Structure}-&gt;{Name}-&gt;{Content};
+
+        $Kernel::OM-&gt;Get($CodeModule)-&gt;CodeReinstall();
+    </CodeReinstall>
+    <BuildCommitID>2f074aa6c01bbe666b70f959172f76988418d205</BuildCommitID>
+    <BuildDate>2020-01-25 03:04:17</BuildDate>
+    <BuildHost>opms.otobo.com</BuildHost>
+    <Filelist>
+        <File Location="doc/en/SystemMonitoring.xml" Permission="644" ></File>
+        <File Location="Kernel/Config/Files/XML/SystemMonitoring.xml" Permission="644" ></File>
+        <File Location="Kernel/Config/NagiosCheck.pm.example" Permission="644" ></File>
+        <File Location="Kernel/Language/bg_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/de_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/es_MX_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/es_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/hu_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/it_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/ja_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/pl_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/pt_BR_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/ru_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/sk_SK_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/sr_Cyrl_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/sr_Latn_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/Language/zh_CN_SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/System/Console/Command/Maint/SystemMonitoring/NagiosCheck.pm" Permission="644" ></File>
+        <File Location="Kernel/System/Console/Command/Maint/SystemMonitoring/NagiosCheckTicketCount.pm" Permission="644" ></File>
+        <File Location="Kernel/System/PostMaster/Filter/SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="Kernel/System/Ticket/Event/NagiosAcknowledge.pm" Permission="644" ></File>
+        <File Location="Kernel/System/Ticket/Event/Icinga2Acknowledge.pm" Permission="644" ></File>
+        <File Location="scripts/test/Console/Command/Maint/SystemMonitoring/NagiosCheck.t" Permission="644" ></File>
+        <File Location="scripts/test/Console/Command/Maint/SystemMonitoring/NagiosCheckTicketCount.t" Permission="644" ></File>
+        <File Location="scripts/test/SystemMonitoring.t" Permission="644" ></File>
+        <File Location="scripts/test/sample/NagiosCheckTesting.pm" Permission="644" ></File>
+        <File Location="scripts/test/sample/SystemMonitoring1.box" Permission="644" ></File>
+        <File Location="scripts/test/sample/SystemMonitoring2.box" Permission="644" ></File>
+        <File Location="var/packagesetup/SystemMonitoring.pm" Permission="644" ></File>
+        <File Location="doc/en/SystemMonitoring.pdf" Permission="644" ></File>
+        <File Location="doc/hu/SystemMonitoring.pdf" Permission="644" ></File>
+    </Filelist>
+</otobo_package>
