@@ -2,102 +2,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SystemMonitoring\n"
 "POT-Creation-Date: 2020-01-24 14:45+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-07-01 02:17+0000\n"
+"Last-Translator: Grit Rother <mr@otobo.de>\n"
+"Language-Team: German <https://translate.otobo.org/projects/otobo10/"
+"systemmonitoring/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. SysConfig
 msgid "Basic mail interface to System Monitoring Suites. Use this block if the filter should run AFTER PostMasterFilter."
 msgstr ""
+"Grundlegende Mail-Schnittstelle für Monitoring-Suiten. Verwenden Sie diesen "
+"Block, falls der Filter NACH dem PostMasterFilter laufen sollte."
 
 #. SysConfig
 msgid "Basic mail interface to System Monitoring Suites. Use this block if the filter should run BEFORE PostMasterFilter."
 msgstr ""
+"Grundlegende Mail-Schnittstelle für Monitoring-Suiten. Verwenden Sie diesen "
+"Block, falls der Filter VOR dem PostMasterFilter laufen sollte."
 
 #. SysConfig
 msgid "Define Nagios acknowledge type."
-msgstr ""
+msgstr "Definiere Nagios-Bestätigungs-Typ."
 
 #. SysConfig
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #. SysConfig
+#, fuzzy
 msgid "Icinga API URL."
-msgstr ""
+msgstr "Icinga API URL."
 
 #. SysConfig
 msgid "Icinga2 acknowledgement author."
-msgstr ""
+msgstr "Autor der Icinga2 Bestätigung."
 
 #. SysConfig
 msgid "Icinga2 acknowledgement comment."
-msgstr ""
+msgstr "Kommentar Icinga2 Bestätigung."
 
 #. SysConfig
 msgid "Icinga2 acknowledgement enabled?"
-msgstr ""
+msgstr "Icinga2 Bestätigung aktiviert?"
 
 #. SysConfig
 msgid "Icinga2 acknowledgement notify."
-msgstr ""
+msgstr "Benachrichtigung Icinga2 Bestätigung."
 
 #. SysConfig
 msgid "Icinga2 acknowledgement sticky."
-msgstr ""
+msgstr "Icinga2 Bestätigung anpinnen."
 
 #. SysConfig
 msgid "Link an already opened incident ticket with the affected CI. This is only possible when a subsequent system monitoring email arrives."
 msgstr ""
+"Verknüpft ein bereits geöffnetes Störungsticket mit dem betroffenen CI. Nur "
+"möglich, wenn nachträglich eine Systemmonitoring-E-Mail eingeht."
 
 #. SysConfig
 msgid "Name of the Dynamic Field for Host."
-msgstr ""
+msgstr "Name des Dynamischen Feldes für den Host."
 
 #. SysConfig
 msgid "Name of the Dynamic Field for Service."
-msgstr ""
+msgstr "Name des Dynamischen Feldes für den Service."
 
 #. SysConfig
 msgid "Named pipe acknowledge command."
-msgstr ""
+msgstr "Bestätigungs-Befehl für die angegebene Pipe."
 
 #. SysConfig
 msgid "Named pipe acknowledge format for host."
-msgstr ""
+msgstr "Bestätigungsformat für die angegebene Pipe und den Host."
 
 #. SysConfig
 msgid "Named pipe acknowledge format for service."
-msgstr ""
+msgstr "Bestätigungsformat für die angegebene Pipe und den Service."
 
 #. SysConfig
 msgid "Set the incident state of a CI automatically when a system monitoring email arrives."
 msgstr ""
+"Automatisches Schließen des Vorfallsstatus eines CI, wenn eine "
+"Systemmonitoring-Mail eingeht."
 
 #. SysConfig
 msgid "The HTTP acknowledge URL."
-msgstr ""
+msgstr "Die HTTP-Bestätigungs-URL."
 
 #. SysConfig
 msgid "The HTTP acknowledge password."
-msgstr ""
+msgstr "Das HTTP-Bestätigungs-Passwort."
 
 #. SysConfig
 msgid "The HTTP acknowledge user."
-msgstr ""
+msgstr "Der HTTP-Bestätigungs-Benutzer."
 
 #. SysConfig
 msgid "Ticket event module to send an acknowledge to Icinga2."
-msgstr ""
+msgstr "Ticket-Event-Modul zum Versenden einer Bestätigung an Icinga2."
 
 #. SysConfig
 msgid "Ticket event module to send an acknowledge to Nagios."
-msgstr ""
+msgstr "Ticket-Event-Modul zum Versenden einer Bestätigung an Nagios."
 
 #. SysConfig
 msgid "pipe"
-msgstr ""
+msgstr "Pipe"
