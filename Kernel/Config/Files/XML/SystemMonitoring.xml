@@ -20,6 +20,7 @@
                 <Item Key="SenderType">system</Item>
                 <Item Key="ArticleType">note-report</Item>
                 <Item Key="FreeTextState">1</Item>
+                <Item Key="KeepOpenIfLocked">0</Item>
             </Hash>
         </Value>
     </Setting>
@@ -43,6 +44,7 @@
                 <Item Key="SenderType">system</Item>
                 <Item Key="ArticleType">note-report</Item>
                 <Item Key="FreeTextState">1</Item>
+                <Item Key="KeepOpenIfLocked">0</Item>
             </Hash>
         </Value>
     </Setting>

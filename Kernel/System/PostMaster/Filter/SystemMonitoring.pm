@@ -69,6 +69,7 @@ sub new {
         DefaultService    => 'Host',
         SenderType        => 'system',
         ArticleType       => 'note-report',
+        KeepOpenIfLocked  => '0',
     };
 
     # get communication log object and MessageID
@@ -461,7 +462,15 @@ sub _TicketUpdate {
     # get config object
     my $ConfigObject = $Kernel::OM->Get('Kernel::Config');
 
-    if ( $Self->{State} =~ /$Self->{Config}->{CloseTicketRegExp}/ ) {
+    # per default, do not keep tickets open
+    my $SkipIfLocked;
+
+    # if configured, locked tickets are not closed
+    if ( $Self->{Config}->{'KeepOpenIfLocked'} ) {
+        $SkipIfLocked = $TicketObject->TicketLockGet( TicketID => $TicketID ) // 0;
+    }
+
+    if ( $Self->{State} =~ /$Self->{Config}->{CloseTicketRegExp}/ && !$SkipIfLocked ) {
 
         # Close Ticket Condition -> Take Close Action
         if ( $Self->{Config}->{CloseActionState} ne 'OLD' ) {
@@ -563,7 +572,7 @@ sub Run {
     if ( $Param{JobConfig} && ref $Param{JobConfig} eq 'HASH' ) {
         KEY:
         for my $Key ( keys( %{ $Param{JobConfig} } ) ) {
-            next KEY if !$Self->{Config}->{$Key};
+            next KEY if !exists $Self->{Config}->{$Key};
             $Self->{Config}->{$Key} = $Param{JobConfig}->{$Key};
         }
     }
