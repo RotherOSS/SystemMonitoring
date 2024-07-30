@@ -29,6 +29,8 @@ sub Data {
     $Self->{Translation}->{'Basic mail interface to System Monitoring Suites. Use this block if the filter should run BEFORE PostMasterFilter.'} =
         'Podstawowy interfejs e-mailowy dla Systemów Monitorujących. Użyj tego bloku, jeśli filtr powinien się wykonać PRZED PostMasterFilter.';
     $Self->{Translation}->{'Define Nagios acknowledge type.'} = 'Określ typ potwierdzenia Nagiosa.';
+    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
     $Self->{Translation}->{'HTTP'} = 'HTTP';
     $Self->{Translation}->{'Icinga API URL.'} = 'URL do API Ininga';
     $Self->{Translation}->{'Icinga2 acknowledgement author.'} = 'Autor potwierdzenia Icinga2.';
