@@ -29,7 +29,11 @@ sub Data {
     $Self->{Translation}->{'Basic mail interface to System Monitoring Suites. Use this block if the filter should run BEFORE PostMasterFilter.'} =
         'System Monitoring Suiteへの基本的なメールインターフェース。 ポストマスターフィルターの前にフィルタを実行する必要がある場合は、このブロックを使用します。';
     $Self->{Translation}->{'Define Nagios acknowledge type.'} = 'Nagiosの確認タイプを定義します。';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'HTTP'} = 'HTTP';
     $Self->{Translation}->{'Icinga API URL.'} = 'Icinga API の URL';
