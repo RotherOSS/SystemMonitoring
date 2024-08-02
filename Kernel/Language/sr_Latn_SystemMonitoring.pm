@@ -29,12 +29,6 @@ sub Data {
     $Self->{Translation}->{'Basic mail interface to System Monitoring Suites. Use this block if the filter should run BEFORE PostMasterFilter.'} =
         'Osnovni imejl interfejs za sistemski nadzor. Koristite ovaj blok ako filter treba da bude pušten PRE PostMasterFilter.';
     $Self->{Translation}->{'Define Nagios acknowledge type.'} = 'Određuje Nagios tip potvrde.';
-    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
-        '';
     $Self->{Translation}->{'HTTP'} = 'HTTP';
     $Self->{Translation}->{'Icinga API URL.'} = 'Adresa Icinga API.';
     $Self->{Translation}->{'Icinga2 acknowledgement author.'} = 'Icinga2 autor potvrde.';

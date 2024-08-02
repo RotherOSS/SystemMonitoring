@@ -29,12 +29,6 @@ sub Data {
     $Self->{Translation}->{'Basic mail interface to System Monitoring Suites. Use this block if the filter should run BEFORE PostMasterFilter.'} =
         '系统监控套件的基本邮件接口。仅当此过滤器在邮件管理员过滤器之前运行时使用。';
     $Self->{Translation}->{'Define Nagios acknowledge type.'} = '定义Nagios已知问题的类型。';
-    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
-        '';
     $Self->{Translation}->{'HTTP'} = 'HTTP';
     $Self->{Translation}->{'Icinga API URL.'} = 'Icinga API的URL 。';
     $Self->{Translation}->{'Icinga2 acknowledgement author.'} = 'Icinga2 确认的作者。';
